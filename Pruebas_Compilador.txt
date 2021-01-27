@@ -1,0 +1,65 @@
+
+Area de un rectangulo
+int a , b , h ;
+ print ( "Dame_la_base" ) ;
+ b = scan ( "" ) ;
+ print ( "Dame_la_altura" ) ;
+ h = scan ( "" ) ;
+ a = [ b * h ] ;
+ print ( a ) ;
+ Fin $
+------------------------------------------------------
+Tabla de multiplicar
+int n , r , i ;
+ print ( "dame_un_numero" ) ;
+ n = scan ( "" ) ;
+ i = 1 ;
+ while ( i <= 10 ) {
+ r = [ i * n ] ;
+ print ( n ) ;
+ print ( "x" ) ;
+ print ( i ) ;
+ print ( "=" ) ;
+ print ( r ) ;
+ print ( "\n" ) ;
+ i = [ i + 1 ] ;
+ } ;
+ Fin $
+---------------------------------------------------------
+Area de un Triangulo
+int a , b , h ;
+ String m , n ;
+ print ( "base:" ) ;
+ b = scan ( "" ) ;
+ print ( "altura:" ) ;
+ h = scan ( "" ) ;
+ a = [ b * h / 2 ] ;
+ print ( "area:" ) ;
+ print ( a ) ;
+ Fin $
+-------------------------------------------------------
+Numero Mayor
+int a , b ;
+ a = scan ( "" ) ;
+ b = scan ( "" ) ;
+ if ( a > b ) {
+ print ( "a_es_mayor" ) ;
+ } else {
+ print ( "b_es_mayor" ) ;
+ } ;
+ Fin $
+------------------------------------------
+if else
+int a , b ;
+ a = 2 ;
+ b = 3 ;
+ if ( a > b ) {
+ a = 3 ;
+ b = 2 ;
+ } else {
+ a = 1 ;
+ b = 2 ; } ;
+ Fin $
+--------------------------------------------------------
+ 
+ 
